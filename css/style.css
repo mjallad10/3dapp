@@ -1,0 +1,951 @@
+:root {
+/*Brand Colours*/
+	--coke_colour: #760003FF;
+	--sprite_colour: #168101;
+	--pepper_colour: #590729;
+	--fanta_colour: #FF9700FF;
+}
+
+/* Fonts */
+@font-face {
+	font-family: cocaColaFont;
+	src: url("../assets/fonts/loki_cola/LOKICOLA.TTF");
+}
+
+@font-face {
+	font-family: OpenSans;
+	src: url("../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: Oswald;
+	src: url("../assets/fonts/Oswald/static/Oswald-Regular.ttf");
+}
+
+/* X-Small devices (portrait phones, less than 576px)*/
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+}
+
+body {
+	background-color: rgba(182, 231, 243, 1.0);
+}
+
+.row{
+	padding-bottom: 1rem;
+}
+.card {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(0,0,0,0);
+	border-width: 1px;
+	/*width: 100%;*/
+	/*height: 100%;*/
+	margin-bottom: 1rem;
+}
+
+.card-header{
+	background-color: var(--coke_colour);
+	color: white;
+}
+
+.card-title{
+	margin: 0px;
+}
+
+.logo {
+	margin-top: 3px;
+}
+
+.logo h1 {
+	font-family: cocaColaFont;
+	font-size: 31px;
+	margin: 0;
+	margin-top: -10px;
+	margin-bottom: -15px;
+	float: left;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 2px;
+}
+
+.logo h2 {
+	font-family: cocaColaFont;
+	font-size: 31px;
+	margin-top: -6px;
+	margin-bottom: -15px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 3px;
+	float: left;
+}
+
+.logo h3 {
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: -5px;
+	padding-top: 0px;
+	padding-left: 0px;
+	float: left;
+}
+
+.logo p {
+	font-size: 7px;
+	margin-top: 22px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 3px;
+}
+
+/* Header*/
+
+.navbar_coca_cola {
+	background-color: var(--coke_colour);
+	border-width: 0px;
+	min-height: 70px;
+}
+
+.navbar_coca_cola .navbar-brand {
+	color: white;
+}
+
+.navbar_coca_cola .navbar-brand:hover {
+	color: white;
+}
+
+.navbar_coca_cola .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar_coca_cola .navbar-nav .nav-item {
+	margin-top: 0px;
+}
+
+.navbar_coca_cola .navbar-nav .nav-item > .active, .navbar_coca_cola .navbar-nav > .active > a:hover, .navbar_coca_cola .navbar-nav > .active > a:focus {
+	border-radius: 10px;
+}
+
+.navbar_coca_cola .navbar-nav > li > a:hover, .navbar_coca_cola .navbar-nav > li > a:focus {
+	background-color: #ffffff;
+	color: black;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.navbar_coca_cola .navbar-toggler-icon {
+	color: white;
+	margin: auto;
+}
+
+.dropdown-menu {
+	text-align: -webkit-left;
+	background-color: var(--coke_colour);
+	margin-top: 20px;
+}
+
+.dropdown-menu .dropdown-item {
+	color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+	color: black;
+	font-weight: bold;
+}
+
+.nav-item a {
+	font-size: 15px;
+}
+
+/*Main Page*/
+.main_contents {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#main_3d_image {
+	background-image: url(../assets/images/site_images/main_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	border-radius: 5px;
+}
+
+.img-thumbnail {
+	padding: 0.25rem;
+	margin-top: 5px;
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+	border-radius: 0.25rem;
+	max-width: 100%;
+	height: auto;
+}
+
+#main_text {
+	float: left;
+	margin: 5%;
+	width: 90%;
+	display: block;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#main_text h2 {
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.5rem;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+#main_text h3 {
+	font-size: 1rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#main_text p {
+	font-size: 0.75rem;
+	margin: 0px;
+	line-height: 1.2;
+}
+
+.brand-card .card-footer{
+	text-align: center;
+}
+
+.find-out-more-button{
+	color: white;
+}
+
+/*Model Page*/
+.camera-row, .animation-row, .model-type-row
+{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.camera-card, .animation-card, .model-type-card, .lighting-card{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+#model_col{
+	margin-bottom: auto;
+}
+
+#brand_header{
+	text-align: center;
+}
+
+#x3d_coke_button, #x3d_sprite_button, #x3d_fanta_button, #x3d_pepper_button{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 33px;
+	width: 65px;
+}
+
+#x3d_coke_button{
+	background-image: url('../assets/images/buttons/coke_button.png');
+}
+#x3d_sprite_button{
+	background-image: url('../assets/images/buttons/sprite_button.png');
+}
+#x3d_pepper_button{
+	background-image: url('../assets/images/buttons/pepper_button.png');
+}
+#x3d_fanta_button{
+	background-image: url('../assets/images/buttons/fanta_button.png');
+}
+
+.preview-header{
+	text-align: center;
+}
+
+#model_text{
+	font-size: 10px;
+}
+
+#spin_button {
+	background-image: url('../assets/images/buttons/spin_button.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 75px;
+	width: 100px;
+}
+
+#light_slider{
+	width: 90%;
+}
+
+#x3d_can_button {
+	background-image: url('../assets/images/buttons/can_button.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 100px;
+}
+#x3d_bottle_button{
+	background-image: url('../assets/images/buttons/bottle_button.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 100px;
+}
+#x3d_cup_button{
+	background-image: url('../assets/images/buttons/cup_button.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 100px;
+}
+
+#front_cam_button, #back_cam_button, #left_cam_button, #right_cam_button, #top_cam_button, #bottom_cam_button{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 80px;
+}
+
+#front_cam_button{
+	background-image: url('../assets/images/buttons/front_button.png');
+}
+#back_cam_button{
+	background-image: url('../assets/images/buttons/back_button.png');
+}
+#left_cam_button{
+	background-image: url('../assets/images/buttons/left_button.png');
+}
+#right_cam_button{
+	background-image: url('../assets/images/buttons/right_button.png');
+}
+#top_cam_button{
+	background-image: url('../assets/images/buttons/top_button.png');
+}
+#bottom_cam_button{
+	background-image: url('../assets/images/buttons/bottom_button.png');
+}
+
+.model3D  {
+	/*background-color: rgba(255, 255, 255, 0.2);*/
+	border-radius: 5px;
+	/*border: 1px solid rgba(0, 0, 0, 1.0);*/
+	padding: 2px;
+	height: 400px;
+}
+
+X3D, x3d{
+	height: 90%;
+}
+
+/*Deeper Understanding*/
+#deeper_understanding ul{
+	list-style-position: inside;
+	list-style-position: inside;
+	padding-inline-start: 0px;
+}
+
+#deeper_understanding li{
+	padding: 10px 0px;
+}
+
+#deeper_understanding .card-body{
+
+}
+
+/*Gallery*/
+.gallery {
+	text-align: center;
+}
+
+.gallery .card-header{
+	text-align: center;
+	font-weight: bold;
+}
+
+.gallery .img-thumbnail{
+	padding: 0.25rem;
+	margin: 5px;
+	max-width: 45%;
+	height: auto;
+}
+
+/*Verge 3D*/
+.container-3d-preview{
+	width: 100%;
+	height: 33rem;
+	margin: auto;
+	padding: 0.1rem;
+}
+
+.embed-3d-preview{
+	height: 100%;
+	width: 100%;
+}
+
+#v3d-container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.fullscreen-button {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background-size: 100% 100%;
+	display: none;
+	z-index: 1;
+}
+
+.fullscreen-open {
+	background-image: url('../assets/verge3d/media/fullscreen_open.svg');
+}
+
+.fullscreen-close {
+	background-image: url('../assets/verge3d/media/fullscreen_close.svg');
+}
+
+/* removes tap blinking on ios devices */
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Dark Theme */
+.v3d-simple-preloader-background {
+	background-color: #181818;
+}
+
+.v3d-simple-preloader-container {
+	filter: drop-shadow(0px 0px 4px #2a69bd);
+}
+
+#verge_iframe {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+#verge_coke_button, #verge_sprite_button, #verge_pepper_button, #verge_fanta_button, #verge_spin_button, #verge_wire_button, #verge_can_button, #verge_cup_button, #verge_bottle_button {
+	position: absolute;
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	background-size: contain;
+}
+
+#verge_coke_button {
+	left: 5px;
+	top: 5px;
+	background-image: url("../assets/verge3d/button_images/coke_button.png");
+}
+
+#verge_sprite_button {
+	left: 60px;
+	top: 5px;
+	background-image: url("../assets/verge3d/button_images/sprite_button.png");
+}
+
+#verge_pepper_button {
+	left: 115px;
+	top: 5px;
+	background-image: url("../assets/verge3d/button_images/pepper_button.png");
+}
+
+#verge_fanta_button {
+	left: 170px;
+	top: 5px;
+	background-image: url("../assets/verge3d/button_images/fanta_button.png");
+}
+
+#verge_wire_button {
+	right: 5px;
+	top: 5px;
+	background-image: url("../assets/verge3d/button_images/wire_button.png");
+}
+
+#verge_spin_button {
+	right: 5px;
+	top: 35px;
+	background-image: url("../assets/verge3d/button_images/spin_button.png");
+}
+
+#verge_can_button {
+	left: 30px;
+	top: 35px;
+	background-image: url("../assets/verge3d/button_images/can_button.png");
+}
+
+#verge_bottle_button {
+	left: 85px;
+	top: 35px;
+	background-image: url("../assets/verge3d/button_images/bottle_button.png");
+}
+
+#verge_cup_button {
+	left: 140px;
+	top: 35px;
+	background-image: url("../assets/verge3d/button_images/cup_button.png");
+}
+
+
+/*Footer*/
+.footer {
+	color: #030303;
+	background-color: var(--coke_colour);
+	height: 120px;
+	text-align: center;
+}
+.navbar-text > a {
+	font-size: 10px;
+}
+.navbar-text > p {
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	text-decoration: none;
+}
+.copyright {
+	padding-top: 8px;
+}
+
+.copyright p{
+	font-size: 0.75rem;
+}
+
+.social {
+	margin: auto;
+	padding-top: 0px;
+}
+.footer-link{
+	color: white
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+	.col-sm-2 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.col-sm-3 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.col-sm-4 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.col-sm-6 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	#main_3d_image {
+		height: 300px;
+		padding: 2rem;
+	}
+
+	#main_text h2 {
+		font-size: 2.5rem;
+	}
+
+	#main_text h3 {
+		font-size: 1.5rem;
+	}
+
+	#main_text p {
+		font-size: 1rem;
+	}
+
+	.model3D {
+		height: 30rem;
+	}
+
+	#x3d_coke_button, #x3d_sprite_button, #x3d_fanta_button, #x3d_pepper_button {
+		height: 50px;
+		width: 100px;
+	}
+
+	.preview-header {
+		font-size: 1.5rem;
+	}
+
+	#model_text {
+		font-size: 1rem;
+	}
+
+	#front_cam_button, #back_cam_button, #left_cam_button, #right_cam_button, #top_cam_button, #bottom_cam_button {
+		height: 38px;
+		width: 60px;
+	}
+
+	.camera-card, .animation-card, .model-type-card, .lighting-card {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.container, .container-sm, .container-md {
+		width: 100%;
+		max-width: 768px;
+	}
+
+	.container-3d-preview {
+		height: 43rem;
+	}
+
+	#verge_coke_button, #verge_sprite_button, #verge_pepper_button, #verge_fanta_button, #verge_spin_button, #verge_wire_button, #verge_can_button, #verge_cup_button, #verge_bottle_button {
+		width: 100px;
+		height: 50px;
+	}
+
+	#verge_coke_button {
+		left: 5px;
+		top: 5px;
+	}
+
+	#verge_sprite_button {
+		left: 115px;
+		top: 5px;
+	}
+
+	#verge_pepper_button {
+		left: 225px;
+		top: 5px;
+	}
+
+	#verge_fanta_button {
+		left: 335px;
+		top: 5px;
+	}
+
+	#verge_wire_button {
+		right: 5px;
+		top: 5px;
+	}
+
+	#verge_spin_button {
+		right: 5px;
+		top: 65px;
+	}
+
+	#verge_can_button {
+		left: 60px;
+		top: 65px;
+	}
+
+	#verge_bottle_button {
+		left: 170px;
+		top: 65px;
+	}
+
+	#verge_cup_button {
+		left: 280px;
+		top: 65px;
+	}
+
+	.copyright p {
+		font-size: 1rem;
+	}
+
+	.social {
+		margin: 0px;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.container, .container-sm, .container-md {
+		width: 90%;
+		max-width: 992px;
+	}
+
+	.col-sm-2{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.col-sm-3{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.col-sm-4{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.col-sm-6{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	#main_3d_image{
+		height: 300px;
+		padding: 4rem;
+	}
+
+	#main_text{
+		width: 75%;
+		margin: 0;
+	}
+
+	.brand-card {
+		min-height: 45rem;
+	}
+
+	#x3d_coke_button, #x3d_sprite_button, #x3d_fanta_button, #x3d_pepper_button {
+		height: 40px;
+		width: 78px;
+	}
+
+
+
+	.preview-header{
+		font-size: 2rem;
+	}
+
+	#model_text {
+		font-size: 20px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.container, .container-sm, .container-md {
+		width: 90%;
+		max-width: 1200px;
+	}
+
+	#main_3d_image{
+		height: 400px;
+		padding: 7rem;
+	}
+
+	#main_text{
+		width: 60%;
+		margin: 0;
+	}
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	.container, .container-sm, .container-md {
+		width: 90%;
+		max-width: 1200px;
+	}
+
+	.col-sm-2{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.col-sm-3{
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.col-sm-4{
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.col-sm-6{
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
+	.navbar_coca_cola {
+		min-height: 120px;
+	}
+
+	.logo {
+		margin-top: 3px;
+	}
+
+	.logo h1 {
+		font-size: 50px;
+	}
+
+	.logo h2 {
+		font-size: 50px;
+	}
+
+	.logo h3 {
+		font-size: 30px;
+
+	}
+
+	.logo p {
+		font-size: 18px;
+		margin-top: 45px;
+	}
+
+	.nav-item a {
+		font-size: 25px;
+	}
+
+	#main_3d_image{
+		height: 400px;
+		padding: 7rem;
+	}
+
+	#main_text{
+		width: 50%;
+		margin: 0;
+	}
+
+	.brand-card {
+		min-height: 50rem;
+	}
+	#model_col {
+		flex: 0 0 50%;
+		max-width: 100%;
+	}
+
+	#control-col {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	#animation-col {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	#lighting-col {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	#verge_coke_button, #verge_sprite_button, #verge_pepper_button, #verge_fanta_button, #verge_spin_button, #verge_wire_button, #verge_can_button, #verge_cup_button, #verge_bottle_button {
+		width: 150px;
+		height: 75px;
+	}
+
+	#verge_coke_button {
+		left: 10px;
+		top: 10px;
+	}
+
+	#verge_sprite_button {
+		left: 10px;
+		top: 120px;
+	}
+
+	#verge_pepper_button {
+		left: 10px;
+		top: 230px;
+	}
+
+	#verge_fanta_button {
+		left: 10px;
+		top: 340px;
+	}
+
+	#verge_wire_button {
+		left: 10px;
+		top: 500px;
+	}
+
+	#verge_spin_button {
+		left: 10px;
+		top: 600px;
+	}
+
+	#verge_can_button {
+		left: unset;
+		right: 10px;
+		top: 10px;
+	}
+
+	#verge_bottle_button {
+		left: unset;
+		right: 10px;
+		top: 120px;
+	}
+
+	#verge_cup_button {
+		left: unset;
+		right: 10px;
+		top: 230px;
+	}
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	.container {
+		max-width: 90%;
+	}
+
+	.col-sm-2 {
+		flex: 0 0 16.666667%;
+		max-width: 16.666667%;
+	}
+
+	.col-sm-3 {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
+	.col-sm-4 {
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+
+	.col-sm-6 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	#main_3d_image{
+		height: 400px;
+		padding: 7rem;
+	}
+
+	#main_text{
+		width: 40%;
+		margin: 0;
+	}
+
+	#control-col {
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+
+	.model3D {
+		height: 500px;
+	}
+
+	X3D,x3d{
+		height: 90%;
+	}
+
+	.lighting-card{
+		min-height: 16rem;
+	}
+
+	.animation-card{
+		min-height: 16rem;
+	}
+
+	#front_cam_button, #back_cam_button, #left_cam_button, #right_cam_button, #top_cam_button, #bottom_cam_button {
+		height: 51px;
+		width: 80px;
+	}
+
+	#x3d_coke_button, #x3d_sprite_button, #x3d_fanta_button, #x3d_pepper_button {
+		height: 80px;
+		width: 160px;
+	}
+}

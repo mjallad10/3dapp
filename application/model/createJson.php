@@ -1,0 +1,22 @@
+<?php
+echo '{"users":[
+            {
+                "firstName":"3dapp",
+                "lastName":"cocacola",
+                "joined":{
+                        "month":"June",
+                        "day":12,
+                        "year":1984
+                        }
+            },
+            {
+                "firstName":"coke",
+                "lastName":"3dapp",
+                "joined":{
+                        "month":"December",
+                        "day":13,
+                        "year":1982
+                        }
+            }
+      ]}';
+?>
