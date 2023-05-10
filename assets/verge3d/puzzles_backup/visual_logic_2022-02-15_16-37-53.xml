@@ -1,0 +1,1288 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="875.0000000000002" scrolly="426.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1275.3762025129213" scrolly="419.5712026947135" scale="0.6139132718225752">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="pB1Mbx)$]Jatfgy3#/@!" type="">brand</variable>
+      <variable id="|v~micVDmGV97=U$v6xw" type="">BottlesActive</variable>
+      <variable id="zx8LeWj{BFvL`lUPi2V." type="">wireframe</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="PKp{r.|9h=zIR4dEc}cx" x="-630" y="-570">
+      <field name="NAME">WireFrame</field>
+      <comment pinned="false" h="80" w="160">Wireframe Mode</comment>
+      <statement name="STACK">
+        <block type="controls_ifelse" id="[TeEuw:.}isLe~69po5+">
+          <value name="IF0">
+            <block type="logic_compare" id="pX7SPiqp|=QJPkRI}YOb">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="*jTCIW~IYEUf|a^*o,Fq">
+                  <field name="VAR" id="zx8LeWj{BFvL`lUPi2V.">wireframe</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_boolean" id="P!dEG_Ky|61)l]^Bk$3p">
+                  <field name="BOOL">FALSE</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="variables_set" id="FQ/aNK5bHdYT31nZ-=u:">
+              <field name="VAR" id="zx8LeWj{BFvL`lUPi2V.">wireframe</field>
+              <value name="VALUE">
+                <block type="logic_boolean" id="14m=1CmgFKDF*[tWkZ6g">
+                  <field name="BOOL">TRUE</field>
+                </block>
+              </value>
+              <next>
+                <block type="assignMaterial" id="jQsPP`A9=x8N77|gz_6H">
+                  <value name="VALUE2">
+                    <shadow type="materialList" id=",~|n~;K)z,u_5x$Hy%jb">
+                      <field name="FIELDNAME">Wireframe</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="$Hf)a!f3:E|mL47560na">
+                      <field name="FIELDNAME">Can</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="assignMaterial" id="n@n-m|i!sJBtDx@n!_J}">
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="gM:QFx0sm..4#}13tPf}">
+                          <field name="FIELDNAME">Wireframe</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="BSuD7FGC^Z(8(2!RhIry">
+                          <field name="FIELDNAME">Coke_Bottle</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="assignMaterial" id="DR#rm:|[m0A,9.HIlO7D">
+                          <value name="VALUE2">
+                            <shadow type="materialList" id="RI,E3PQT3NQybUUy0e9_">
+                              <field name="FIELDNAME">Wireframe</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="{9DJpi.[o8Ta`sh_flEx">
+                              <field name="FIELDNAME">Sprite_Bottle</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="assignMaterial" id="-!!Aqhc3r}RQ*t9no`0}">
+                              <value name="VALUE2">
+                                <shadow type="materialList" id="491f=FJL^l24%afMy%9x">
+                                  <field name="FIELDNAME">Wireframe</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="HD}9x/m]0yv^scaMr;??">
+                                  <field name="FIELDNAME">Pepper_Bottle</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="assignMaterial" id="|[dHu%JiA?-)-1tIMg|G">
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="m):%-:tgY?`WbcU:y0^V">
+                                      <field name="FIELDNAME">Wireframe</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id="CmFiuRwIi_OcC~#9!54y">
+                                      <field name="FIELDNAME">Fanta_Bottle</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="assignMaterial" id="B/G*AI{fpbw*6D)iTABE">
+                                      <value name="VALUE2">
+                                        <shadow type="materialList" id="xy_j]cy*6W,P~MWG=^1h">
+                                          <field name="FIELDNAME">Wireframe</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="sX,o!{oCOw`;2q0j]s:Y">
+                                          <field name="FIELDNAME">Coke_Liquid</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="assignMaterial" id="{^|=Y_uhYf2gNfjsZ|I=">
+                                          <value name="VALUE2">
+                                            <shadow type="materialList" id="wQy=p{(MxK4?d8js0{r0">
+                                              <field name="FIELDNAME">Wireframe</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="VALUE1">
+                                            <shadow type="objectList" id=";Zg.8pt8W%r7)i#%HQ+o">
+                                              <field name="FIELDNAME">Sprite_Liquid</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="assignMaterial" id=")VW_lW1^ETM-WEe_/TCv">
+                                              <value name="VALUE2">
+                                                <shadow type="materialList" id="|Hj:nAh?:B]`_qX{k]o[">
+                                                  <field name="FIELDNAME">Wireframe</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="VALUE1">
+                                                <shadow type="objectList" id="yj*7o80_{re3O78}y*fo">
+                                                  <field name="FIELDNAME">Pepper_Liquid</field>
+                                                </shadow>
+                                              </value>
+                                              <next>
+                                                <block type="assignMaterial" id=";-1HnAM~Ed=a~^{TC|Xr">
+                                                  <value name="VALUE2">
+                                                    <shadow type="materialList" id="X4{*V+UxPi/FR^0.Vq2c">
+                                                      <field name="FIELDNAME">Wireframe</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <value name="VALUE1">
+                                                    <shadow type="objectList" id="sVo@jU}qP{wWnmke~c{!">
+                                                      <field name="FIELDNAME">Fanta_Liquid</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <next>
+                                                    <block type="assignMaterial" id="H,/JzyGz,{$d3XV!V[cP">
+                                                      <value name="VALUE2">
+                                                        <shadow type="materialList" id="[bJ*[|NwJ7T1]6nDi_v,">
+                                                          <field name="FIELDNAME">Wireframe</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <value name="VALUE1">
+                                                        <shadow type="objectList" id="G1Jq0ef_{r*~61jVQ?TR">
+                                                          <field name="FIELDNAME">Coke_Bottle_Lid</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <next>
+                                                        <block type="assignMaterial" id="R{g/-6OZ(rf]=^8O|`@3">
+                                                          <value name="VALUE2">
+                                                            <shadow type="materialList" id="~P0Nhrh]~M(R^{maKHbW">
+                                                              <field name="FIELDNAME">Wireframe</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <value name="VALUE1">
+                                                            <shadow type="objectList" id="dwQ42?:3_n]S#I;cvOIW">
+                                                              <field name="FIELDNAME">Sprite_Bottle_Lid</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <next>
+                                                            <block type="assignMaterial" id="Szk@Q47e+mAJYV8f~em0">
+                                                              <value name="VALUE2">
+                                                                <shadow type="materialList" id="gH~IyS6R*M5FGI;c+{H9">
+                                                                  <field name="FIELDNAME">Wireframe</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <value name="VALUE1">
+                                                                <shadow type="objectList" id="tEwh`#wdPmqXG0Ib{e4.">
+                                                                  <field name="FIELDNAME">Pepper_Bottle_Lid</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <next>
+                                                                <block type="assignMaterial" id="}9Cf+m|gJ|?Za69X6+!%">
+                                                                  <value name="VALUE2">
+                                                                    <shadow type="materialList" id="z^FOTJn~l0S=iK]*a:i`">
+                                                                      <field name="FIELDNAME">Wireframe</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <value name="VALUE1">
+                                                                    <shadow type="objectList" id="oajkT8[pC|H-E_V3KSKR">
+                                                                      <field name="FIELDNAME">Fanta_Bottle_Lid</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <next>
+                                                                    <block type="assignMaterial" id="8BpMHTn}s.iEgeMpV}8c">
+                                                                      <value name="VALUE2">
+                                                                        <shadow type="materialList" id="gay#%x#0V`h@4daG-%A1">
+                                                                          <field name="FIELDNAME">Wireframe</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                      <value name="VALUE1">
+                                                                        <shadow type="objectList" id="KD#xF]CsFh*4ZIQiJV9]">
+                                                                          <field name="FIELDNAME">Coke_Bottle_Label</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                      <next>
+                                                                        <block type="assignMaterial" id="=+(DdwC2B.H;RNJCFBN]">
+                                                                          <value name="VALUE2">
+                                                                            <shadow type="materialList" id="BTKiTNg2?C[#|8Py)_ui">
+                                                                              <field name="FIELDNAME">Wireframe</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                          <value name="VALUE1">
+                                                                            <shadow type="objectList" id=")JMNjIK$fPUDe?nui`?i">
+                                                                              <field name="FIELDNAME">Sprite_Bottle_Label</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                          <next>
+                                                                            <block type="assignMaterial" id="Eh0xv[n!We0bs]y7B!k@">
+                                                                              <value name="VALUE2">
+                                                                                <shadow type="materialList" id="AF6n.NROsK7(?7Vl,PGA">
+                                                                                  <field name="FIELDNAME">Wireframe</field>
+                                                                                </shadow>
+                                                                              </value>
+                                                                              <value name="VALUE1">
+                                                                                <shadow type="objectList" id="mM$`^3IWTaO,k(EiDkz8">
+                                                                                  <field name="FIELDNAME">Pepper_Bottle_Label</field>
+                                                                                </shadow>
+                                                                              </value>
+                                                                              <next>
+                                                                                <block type="assignMaterial" id="gl?WYck6{},q%tdhj_j^">
+                                                                                  <value name="VALUE2">
+                                                                                    <shadow type="materialList" id="F^!sk-L`?vYI@KXD,P|j">
+                                                                                      <field name="FIELDNAME">Wireframe</field>
+                                                                                    </shadow>
+                                                                                  </value>
+                                                                                  <value name="VALUE1">
+                                                                                    <shadow type="objectList" id="7Vk{4DdbD?e8!F@]]RF~">
+                                                                                      <field name="FIELDNAME">Fanta_Bottle_Label</field>
+                                                                                    </shadow>
+                                                                                  </value>
+                                                                                </block>
+                                                                              </next>
+                                                                            </block>
+                                                                          </next>
+                                                                        </block>
+                                                                      </next>
+                                                                    </block>
+                                                                  </next>
+                                                                </block>
+                                                              </next>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="ELSE">
+            <block type="procedures_callnoreturn" id=".r[.v/Xc/,LVg~tlKWM0">
+              <mutation name="UpdateDisplay"/>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="bAw`C#@:mLeP9o%:~}*O" x="-2090" y="-390">
+      <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+      <value name="VALUE">
+        <block type="math_number" id="OX?7?cK]YJW[-[W2I=}C">
+          <field name="NUM">0</field>
+        </block>
+      </value>
+      <next>
+        <block type="variables_set" id="PaiXv?o/U45Trj?ZYIi{">
+          <field name="VAR" id="|v~micVDmGV97=U$v6xw">BottlesActive</field>
+          <value name="VALUE">
+            <block type="logic_boolean" id="[ip8uBL:{~?5YBDk!#`n">
+              <field name="BOOL">FALSE</field>
+            </block>
+          </value>
+          <next>
+            <block type="variables_set" id="vPs3GeqAzcd~6ItZPZ(f">
+              <field name="VAR" id="zx8LeWj{BFvL`lUPi2V.">wireframe</field>
+              <value name="VALUE">
+                <block type="logic_boolean" id="hH,`+8sx4j)s21*%|q4C">
+                  <field name="BOOL">FALSE</field>
+                </block>
+              </value>
+              <next>
+                <block type="setMaterialWireframe" id="Ac[nY_Ug-ZeI^!v:`*`5">
+                  <field name="DO_WHAT">ENABLE</field>
+                  <value name="MATERIAL">
+                    <shadow type="materialList" id="2q%@`!br8ui)4P@uM`!m">
+                      <field name="FIELDNAME">Wireframe</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="procedures_callnoreturn" id=",=wbTmWe]H2^^[Y8hE0S">
+                      <mutation name="UpdateDisplay"/>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="JB5C03Q_#-^t!yyu//1;" x="-1490" y="-330">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="fu#vZ.qX$]3SI;_l[~/.">
+          <field name="TEXT">coke_button</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="variables_set" id="7^~*lb7xs}RA=,2{MwX%">
+          <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+          <value name="VALUE">
+            <block type="math_number" id="P02{iO@bZVR{Ax|)wtYC">
+              <field name="NUM">0</field>
+            </block>
+          </value>
+          <next>
+            <block type="procedures_callnoreturn" id="J1rQ;yPSE]f1Cy~):7v.">
+              <mutation name="UpdateDisplay"/>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="wqMyU+%DME?~=X;ZZFD=">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id="%s)[$0!OPQw/MXQ*h-A0">
+              <field name="TEXT">sprite_button</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="variables_set" id="!]w42f5XV02:,O_r:Z(.">
+              <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+              <value name="VALUE">
+                <block type="math_number" id="yqvTo,FJsF1?x,GrYpS;">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <next>
+                <block type="procedures_callnoreturn" id="S3NEko.UdY=K~K4^QUa.">
+                  <mutation name="UpdateDisplay"/>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id="be,Yw!u[$(BD5x^^LgmG">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <shadow type="text" id="K1KG.9@mb/aiA23N7nKA">
+                  <field name="TEXT">pepper_button</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="W%}+?;UNqVHA2PzkiL)q">
+                  <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="Q_|fwPfcm)DM17JMD/{O">
+                      <field name="NUM">2</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="procedures_callnoreturn" id="2Maps07SW_x8ruip?4bb">
+                      <mutation name="UpdateDisplay"/>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="eventHTMLElem" id="m;I;Ljm4*Wu3IXq!n76(">
+                  <field name="EVENT">click</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <shadow type="text" id="VnYM{[;A%-`o,ov;]beD">
+                      <field name="TEXT">fanta_button</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="%[6cLs!MjRf#u:_i^w}4">
+                      <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+                      <value name="VALUE">
+                        <block type="math_number" id="u;/*{WPxk3!3wZ7%N.M+">
+                          <field name="NUM">3</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="procedures_callnoreturn" id=")C:.`+LE3dGHCkolFL?w">
+                          <mutation name="UpdateDisplay"/>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="eventHTMLElem" id="vcp3eF|UTq*./z]2gf=Z">
+                      <field name="EVENT">keyup</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="ID">
+                        <block type="DOMObjectSelector" id="Resm@hi6hWLA5$.8FQTU">
+                          <field name="DOM_OBJECT">DOCUMENT</field>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="controls_if" id="b(bmTJ(M4]y[S|*n@9Xa">
+                          <value name="IF0">
+                            <block type="logic_compare" id="|T_EoOOY~3-OoJ1}`l+5">
+                              <field name="OP">EQ</field>
+                              <value name="A">
+                                <block type="getEventProperty" id="!T{-shxSnRp==Yvzyy,:">
+                                  <field name="PROPERTY">key</field>
+                                </block>
+                              </value>
+                              <value name="B">
+                                <block type="text" id="%*t6BntK3nn^O.R6rfn~">
+                                  <field name="TEXT">m</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <statement name="DO0">
+                            <block type="procedures_callnoreturn" id="auIXWhaMv]F+isQ;lutU">
+                              <mutation name="WireFrame"/>
+                            </block>
+                          </statement>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="eventHTMLElem" id="{21/b3p!d_RrCY_(If|k">
+                          <field name="EVENT">click</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <shadow type="text" id="Ou/71:_wU*9R;w)p-4-h">
+                              <field name="TEXT">wire_button</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="procedures_callnoreturn" id="ti-F33/+~#0y5[w{|14y">
+                              <mutation name="WireFrame"/>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="eventHTMLElem" id="EmuTOgWaUmoA)OQ1:Bhu">
+                              <field name="EVENT">click</field>
+                              <field name="PARENT">TRUE</field>
+                              <value name="ID">
+                                <shadow type="text" id="aozNGIL[h-I/4~%kv#oo">
+                                  <field name="TEXT">spin_button</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="playAnimationAdv" id="$-8N{JDc7=9YD:rFAgwc">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                  <field name="REVERSED">FALSE</field>
+                                  <field name="LOOP">LoopOnce</field>
+                                  <value name="VALUE">
+                                    <shadow type="animationList" id="E%LzE^DOW+RzI-3pcJJ;">
+                                      <field name="FIELDNAME">Can</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="eventHTMLElem" id="]o,Rtv!lQ(~EImUYbgC/">
+                                  <field name="EVENT">click</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <shadow type="text" id="p6f6a:UB{0.p2==U/(vl">
+                                      <field name="TEXT">can_button</field>
+                                    </shadow>
+                                  </value>
+                                  <statement name="DO">
+                                    <block type="variables_set" id="|CN3y!s5%D{C=X46~bcu">
+                                      <field name="VAR" id="|v~micVDmGV97=U$v6xw">BottlesActive</field>
+                                      <value name="VALUE">
+                                        <block type="logic_boolean" id="3ti12]){#8ea(jR5ln*;">
+                                          <field name="BOOL">FALSE</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="show" id="{eQMo~#}x=_5mL|,vnhb">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="wrqQ4.kRl8FJ-%2s/c#n">
+                                              <field name="FIELDNAME">Can</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="procedures_callnoreturn" id="SRMTAnY)/H}7lfTW1.6j">
+                                              <mutation name="UpdateDisplay"/>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="eventHTMLElem" id=")(1P+f!?Ta$1}V:eY*`K">
+                                      <field name="EVENT">click</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <shadow type="text" id="qdT]!mGBcMx%TYTVo!d{">
+                                          <field name="TEXT">bottle_button</field>
+                                        </shadow>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="variables_set" id="[Ikx9Uw:i5USw7doNDwU">
+                                          <field name="VAR" id="|v~micVDmGV97=U$v6xw">BottlesActive</field>
+                                          <value name="VALUE">
+                                            <block type="logic_boolean" id="!+ckzZ(=$.y?F8K:bMbz">
+                                              <field name="BOOL">TRUE</field>
+                                            </block>
+                                          </value>
+                                          <next>
+                                            <block type="procedures_callnoreturn" id="k-e$B.m/|l~1O;oYM!+_">
+                                              <mutation name="UpdateDisplay"/>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defreturn" id="O%}?a:E29}u~0G7oiN,7" x="70" y="-170">
+      <field name="NAME">getCanMaterial</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="procedures_ifreturn" id="I_NwPy#8L;~:X74zZG42">
+          <mutation value="1"/>
+          <value name="CONDITION">
+            <block type="logic_compare" id="e?O0*7qxGGn.n))cg[))">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="oglZM_=MXu/LoRK8AO)/">
+                  <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="p]1=ys2`8i:_[%wV]ZYe">
+                  <field name="NUM">0</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="VALUE">
+            <block type="materialList" id="xn*1mTb]Ajl6)^um/Km]">
+              <field name="FIELDNAME">Coke_Material</field>
+            </block>
+          </value>
+          <next>
+            <block type="procedures_ifreturn" id=".16HoFX4xY4/e~?*i[Q,">
+              <mutation value="1"/>
+              <value name="CONDITION">
+                <block type="logic_compare" id="]Qyk@a-xZB?,wxJ/.OyB">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="4Nvx$_}ks.Qg#q)fV]i/">
+                      <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="math_number" id="T#6!BZiMs/tB_3}[nqiu">
+                      <field name="NUM">1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="VALUE">
+                <block type="materialList" id="^o~KL,[2pak`mD|eq990">
+                  <field name="FIELDNAME">Sprite_Material</field>
+                </block>
+              </value>
+              <next>
+                <block type="procedures_ifreturn" id="}pEOXDKorOBw6Lj8_b#`">
+                  <mutation value="1"/>
+                  <value name="CONDITION">
+                    <block type="logic_compare" id="6wD{@oHCW~G}Adf}|B~.">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="v%*/;uQxy6;;HJ{A9bz7">
+                          <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="math_number" id="e):)Nq[)oC6#-3a=n,PN">
+                          <field name="NUM">2</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <value name="VALUE">
+                    <block type="materialList" id="8dHR_7i(9~]Vb6UwvrP7">
+                      <field name="FIELDNAME">Pepper_Material</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="procedures_ifreturn" id="pe[s`f}9e?w1Hgz~.jW9">
+                      <mutation value="1"/>
+                      <value name="CONDITION">
+                        <block type="logic_compare" id=";#g7@ADtHW=_BddI:r56">
+                          <field name="OP">EQ</field>
+                          <value name="A">
+                            <block type="variables_get" id="d7$!gSxkA`}hj$W8+-,$">
+                              <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+                            </block>
+                          </value>
+                          <value name="B">
+                            <block type="math_number" id="B_hjqSyw,5Ng~0c+q0JI">
+                              <field name="NUM">3</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <value name="VALUE">
+                        <block type="materialList" id="1K%CjAU6w4yETbvPx;8X">
+                          <field name="FIELDNAME">Fanta_Material</field>
+                        </block>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="KX1q$XZ8y?oR]=sj#N:[" x="790" y="-130">
+      <field name="NAME">UpdateBottles</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="controls_ifelse" id="#sb7qj|lmWV/-QJI.ov_">
+          <value name="IF0">
+            <block type="logic_compare" id="jy3?blXpENtTn7X6(Inb">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="E)hObv!q{B98:|}81`x@">
+                  <field name="VAR" id="|v~micVDmGV97=U$v6xw">BottlesActive</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_boolean" id="jp~`m;l#7?5q2E;yt^[@">
+                  <field name="BOOL">TRUE</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="controls_if" id="V4)6@#(OC^Z6%Z+c:Uml">
+              <value name="IF0">
+                <block type="logic_compare" id="ut7Rq8zkQbr6RAT[k#RD">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="4iw,9/Ui^?p7?oj._Btx">
+                      <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="math_number" id="%|oa#fw$`Ll08m9]{Lw7">
+                      <field name="NUM">0</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO0">
+                <block type="show" id="r1w;,(!fA:xf?MbG;tlf">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="GJz8*Y:T93GkAxAd2_%`">
+                      <field name="FIELDNAME">Coke_Bottle</field>
+                    </shadow>
+                    <block type="groupList" id="y?%Nw^[}aQTr=8YPnf+b">
+                      <field name="FIELDNAME">Coke_Bottle</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="hide" id="i;uBfO`~t,|bqURj1;!A">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="RlEUXXiQLQaC-3o$[-sB">
+                          <field name="FIELDNAME">Sprite_Bottle</field>
+                        </shadow>
+                        <block type="groupList" id="eyaoN7A6m!h*R`QL+6Rn">
+                          <field name="FIELDNAME">Sprite_Bottle</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="hide" id="}+A.|Mqpnry.g#fLFk%e">
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">Sprite_Bottle</field>
+                            </shadow>
+                            <block type="groupList" id="Bf|BbVuucx?2w%Snt@0.">
+                              <field name="FIELDNAME">Pepper_Bottle</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="hide" id="Z]oiHh[.`cNmcv[vE/#u">
+                              <value name="VALUE">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">Sprite_Bottle</field>
+                                </shadow>
+                                <block type="groupList" id="e~]@@N-|R|~f(C;xZU.8">
+                                  <field name="FIELDNAME">Fanta_Bottle</field>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="controls_if" id=")*EWcJPz?f7fE,yJ.E7e">
+                  <value name="IF0">
+                    <block type="logic_compare" id="H5irE[3+RJPA5|mpa3Aw">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="5rRwo+q2q_Mpo~`VCCPq">
+                          <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="math_number" id="0Oy4aFE$Byy%KA1cVFpo">
+                          <field name="NUM">1</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="show" id="#)z4j!FtZfKbUvyqm-=P">
+                      <value name="VALUE">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">Coke_Bottle</field>
+                        </shadow>
+                        <block type="groupList" id="kHVfuognhvg.e+5{0C?l">
+                          <field name="FIELDNAME">Sprite_Bottle</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="hide" id="/efv@++:(V~PAaW[Z!=9">
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">Sprite_Bottle</field>
+                            </shadow>
+                            <block type="groupList" id="*7S=g[X`_`=6Qi9xZ_x{">
+                              <field name="FIELDNAME">Coke_Bottle</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="hide" id="|abg3Mh{KaQ^A/oX#E(v">
+                              <value name="VALUE">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">Sprite_Bottle</field>
+                                </shadow>
+                                <block type="groupList" id="yjp=X=gfPpxonm[z624/">
+                                  <field name="FIELDNAME">Pepper_Bottle</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="hide" id="6.#Gd%N8!PHhx#~x{eqK">
+                                  <value name="VALUE">
+                                    <shadow type="objectList">
+                                      <field name="FIELDNAME">Sprite_Bottle</field>
+                                    </shadow>
+                                    <block type="groupList" id="wo.lHUuD`:I|(MkbYmyY">
+                                      <field name="FIELDNAME">Fanta_Bottle</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="controls_if" id="5eM.I-Vt;n$$jOBEzve[">
+                      <value name="IF0">
+                        <block type="logic_compare" id="QE=V,Vu`yq_01^fyLmoB">
+                          <field name="OP">EQ</field>
+                          <value name="A">
+                            <block type="variables_get" id="opq=~/7bzy=/He0^d77b">
+                              <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+                            </block>
+                          </value>
+                          <value name="B">
+                            <block type="math_number" id="bJQ:vX#8:3i7yaUU^iZc">
+                              <field name="NUM">2</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <statement name="DO0">
+                        <block type="show" id="G=G=J]r)JUam6UZmW}lM">
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">Coke_Bottle</field>
+                            </shadow>
+                            <block type="groupList" id="amY[,^Dis}hIM6#[}6`D">
+                              <field name="FIELDNAME">Pepper_Bottle</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="hide" id="m|a[J9#EdWVZ#8,YxF|I">
+                              <value name="VALUE">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">Sprite_Bottle</field>
+                                </shadow>
+                                <block type="groupList" id="O%ZFU+Dtfhnxg|g9(w+@">
+                                  <field name="FIELDNAME">Coke_Bottle</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="hide" id="*36N5uHEfbdM(5tv$_)E">
+                                  <value name="VALUE">
+                                    <shadow type="objectList">
+                                      <field name="FIELDNAME">Sprite_Bottle</field>
+                                    </shadow>
+                                    <block type="groupList" id="H+Tf%o57yAEVyt{5}hnu">
+                                      <field name="FIELDNAME">Sprite_Bottle</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="hide" id="kLZtc_hZV3vN-x0p10Ay">
+                                      <value name="VALUE">
+                                        <shadow type="objectList">
+                                          <field name="FIELDNAME">Sprite_Bottle</field>
+                                        </shadow>
+                                        <block type="groupList" id="X-vK.FgaK.7+e(3K9I:k">
+                                          <field name="FIELDNAME">Fanta_Bottle</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="controls_if" id="Q`:p0]k[Q%-[X2UIC5P3">
+                          <value name="IF0">
+                            <block type="logic_compare" id="=z*U[}F!a(NN=`UCPdje">
+                              <field name="OP">EQ</field>
+                              <value name="A">
+                                <block type="variables_get" id="3A](sAGPRhG$|Zi;{tLR">
+                                  <field name="VAR" id="pB1Mbx)$]Jatfgy3#/@!">brand</field>
+                                </block>
+                              </value>
+                              <value name="B">
+                                <block type="math_number" id="^qi-e!*`([Rg5+sze$:[">
+                                  <field name="NUM">3</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <statement name="DO0">
+                            <block type="show" id="ekLv$7ATzd1*d3MA_OZt">
+                              <value name="VALUE">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">Coke_Bottle</field>
+                                </shadow>
+                                <block type="groupList" id=".SrZs|)8452(,0T-`G0;">
+                                  <field name="FIELDNAME">Fanta_Bottle</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="hide" id="Vk|gVKe#5dLAsWEOFf/b">
+                                  <value name="VALUE">
+                                    <shadow type="objectList">
+                                      <field name="FIELDNAME">Sprite_Bottle</field>
+                                    </shadow>
+                                    <block type="groupList" id=",lB4Nu[7JZ+|K45LQOS;">
+                                      <field name="FIELDNAME">Coke_Bottle</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="hide" id="])r-oOAq)xCKlkrw^Ah)">
+                                      <value name="VALUE">
+                                        <shadow type="objectList">
+                                          <field name="FIELDNAME">Sprite_Bottle</field>
+                                        </shadow>
+                                        <block type="groupList" id="7Q2Xa98$.swMZs9Kc{bZ">
+                                          <field name="FIELDNAME">Sprite_Bottle</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="hide" id=")WD@6b9dI(f$}Kk|ggTV">
+                                          <value name="VALUE">
+                                            <shadow type="objectList">
+                                              <field name="FIELDNAME">Sprite_Bottle</field>
+                                            </shadow>
+                                            <block type="groupList" id="v!8?ESQUg94U*lD+,EEC">
+                                              <field name="FIELDNAME">Pepper_Bottle</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="hide" id="_KyY9UGJ|^{ad)}SNN8g">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="6~FfNUB?,Kt`FqZG9.!J">
+                                  <field name="FIELDNAME">Can</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="ELSE">
+            <block type="hide" id="1r)A5MY:SpkS$D-W50/w">
+              <value name="VALUE">
+                <shadow type="objectList">
+                  <field name="FIELDNAME">Sprite_Bottle</field>
+                </shadow>
+                <block type="groupList" id="JoCzj)l(*ziyMm/ECW20">
+                  <field name="FIELDNAME">Coke_Bottle</field>
+                </block>
+              </value>
+              <next>
+                <block type="hide" id="{KP(2H=YAT~zh95Ub-Im">
+                  <value name="VALUE">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">Sprite_Bottle</field>
+                    </shadow>
+                    <block type="groupList" id="rl(HQt70=#Y(v_ckK;{f">
+                      <field name="FIELDNAME">Sprite_Bottle</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="hide" id="ZBpB;a0)G,MSyYn;Ly~I">
+                      <value name="VALUE">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">Sprite_Bottle</field>
+                        </shadow>
+                        <block type="groupList" id="mk/R%xYbncVHFL1A_}n4">
+                          <field name="FIELDNAME">Pepper_Bottle</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="hide" id="]hL5]?kh%*(F9.]h?;~e">
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">Sprite_Bottle</field>
+                            </shadow>
+                            <block type="groupList" id="hFs-pA*Juj0:Pacs008^">
+                              <field name="FIELDNAME">Fanta_Bottle</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id=";_sJf1X7],~m.9xgigQ-" x="30" y="250">
+      <field name="NAME">ResetMaterials</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="assignMaterial" id="$lLAg;*^qCh[@);wz;bl">
+          <value name="VALUE2">
+            <shadow type="materialList" id="Mb2TI^YE{BxYK0mgv:AQ">
+              <field name="FIELDNAME">Coke_Material</field>
+            </shadow>
+            <block type="procedures_callreturn" id="uBTAPm2d0Y:]{V@d2N|F">
+              <mutation name="getCanMaterial"/>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="`uX-mXhn*1:t`l~4R!#L">
+              <field name="FIELDNAME">Can</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="assignMaterial" id="6=_IQ%WyE%j7:*E_bgIc">
+              <value name="VALUE2">
+                <shadow type="materialList" id="w@%[;(SQi8`^TlX-I`gt">
+                  <field name="FIELDNAME">Coke_Bottle_Material</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="uI~bz$UBogh?-8w-K3%U">
+                  <field name="FIELDNAME">Coke_Bottle</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="assignMaterial" id="|E_+lXpxza9N:/4ZY$[A">
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="PA^YN]o^~@Eesv^0F5/R">
+                      <field name="FIELDNAME">Sprite_Bottle_Material</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="RdX?n[xVn}n{Ul.!uln^">
+                      <field name="FIELDNAME">Sprite_Bottle</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="assignMaterial" id="+]V9m|@HJx_y=tZ=5N@J">
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="e}[Iy$:BS+RRfH7;5g1{">
+                          <field name="FIELDNAME">Pepper_Bottle_Material</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="ipcrvD{VO@f0L~2h1E.1">
+                          <field name="FIELDNAME">Pepper_Bottle</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="assignMaterial" id="^9.B43RIcJ8[WL8B.reo">
+                          <value name="VALUE2">
+                            <shadow type="materialList" id="(~p=48lHa6Ob#M;Z0dH(">
+                              <field name="FIELDNAME">Fanta_Bottle_Material</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="PFET}2HU^1O-~JV;0`+9">
+                              <field name="FIELDNAME">Fanta_Bottle</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="assignMaterial" id="aa0Y9pTgb0.3bm}.eR,{">
+                              <value name="VALUE2">
+                                <shadow type="materialList" id=".2D2g4#^~lb!DE[R-0wj">
+                                  <field name="FIELDNAME">Coke_Liquid_Material</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="{(1W_G#aj5,uk9GCS-XC">
+                                  <field name="FIELDNAME">Coke_Liquid</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="assignMaterial" id="$fkQNIQpa(BuS*#a/HRg">
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="*_7d9E9`Tk%L{u2cK/SP">
+                                      <field name="FIELDNAME">Sprite_Liquid_Material</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id="Z_,S8^|w^{W2crS6nV-w">
+                                      <field name="FIELDNAME">Sprite_Liquid</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="assignMaterial" id="u4(:$%uXT+n_Ho?upl^H">
+                                      <value name="VALUE2">
+                                        <shadow type="materialList" id="ofumaT=5g14uEm5D#)?o">
+                                          <field name="FIELDNAME">Pepper_Liquid_Material</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="v!8s22x3[C#5%OqBZ87z">
+                                          <field name="FIELDNAME">Pepper_Liquid</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="assignMaterial" id="EHid8~ZV.osb8Wp$1nML">
+                                          <value name="VALUE2">
+                                            <shadow type="materialList" id="k93Tr~_xvB5ubM89pU;~">
+                                              <field name="FIELDNAME">Fanta_Liquid_Material</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="VALUE1">
+                                            <shadow type="objectList" id="s100F.Q.p]zt=4obne_I">
+                                              <field name="FIELDNAME">Fanta_Liquid</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="assignMaterial" id="ku%qapIIZ3%[XSW_+sU_">
+                                              <value name="VALUE2">
+                                                <shadow type="materialList" id="i|7*[6w+GvkzI4Po*ii@">
+                                                  <field name="FIELDNAME">Coke_Label_Material</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="VALUE1">
+                                                <shadow type="objectList" id="tQ;FEe43vkb{kcd~h:ve">
+                                                  <field name="FIELDNAME">Coke_Bottle_Label</field>
+                                                </shadow>
+                                              </value>
+                                              <next>
+                                                <block type="assignMaterial" id="0sgLly?au?SsSOif#1|9">
+                                                  <value name="VALUE2">
+                                                    <shadow type="materialList" id="=Y7XIzxvGbitLf`Lj$PK">
+                                                      <field name="FIELDNAME">Sprite_Label_Material</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <value name="VALUE1">
+                                                    <shadow type="objectList" id="ge,uQMoI4QSVXPS~Y%5}">
+                                                      <field name="FIELDNAME">Sprite_Bottle_Label</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <next>
+                                                    <block type="assignMaterial" id="CH0zsF=RqI-t]vO7G:P!">
+                                                      <value name="VALUE2">
+                                                        <shadow type="materialList" id="eLHPapa+!k:B)%l?(71y">
+                                                          <field name="FIELDNAME">Pepper_Label_Material</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <value name="VALUE1">
+                                                        <shadow type="objectList" id="+9U/cM]o{0#3n2uwy%4J">
+                                                          <field name="FIELDNAME">Pepper_Bottle_Label</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <next>
+                                                        <block type="assignMaterial" id="qQP[PnE]h7RJt5P3O[e[">
+                                                          <value name="VALUE2">
+                                                            <shadow type="materialList" id="jzVh!{XZ`**6mw~[)o@G">
+                                                              <field name="FIELDNAME">Fanta_Label_Material</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <value name="VALUE1">
+                                                            <shadow type="objectList" id="=`HiA(C(qP/2_h!mwIim">
+                                                              <field name="FIELDNAME">Fanta_Bottle_Label</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <next>
+                                                            <block type="assignMaterial" id="-iZ(DGDFxW`Kjf)(XtHb">
+                                                              <value name="VALUE2">
+                                                                <shadow type="materialList" id="4lZE3(nR[|]XmCG5`+CK">
+                                                                  <field name="FIELDNAME">Coke_Lid_Material</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <value name="VALUE1">
+                                                                <shadow type="objectList" id="8z{^f+L+}THxVd5tP$N+">
+                                                                  <field name="FIELDNAME">Coke_Bottle_Lid</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <next>
+                                                                <block type="assignMaterial" id="{29%.5M*w9+hmHOQ~FiT">
+                                                                  <value name="VALUE2">
+                                                                    <shadow type="materialList" id="{/MP(Y*sAL?2(p3UOJl.">
+                                                                      <field name="FIELDNAME">Sprite_Lid_Material</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <value name="VALUE1">
+                                                                    <shadow type="objectList" id="Z3+}jY5%}6]FZz|Pq9@K">
+                                                                      <field name="FIELDNAME">Sprite_Bottle_Lid</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <next>
+                                                                    <block type="assignMaterial" id="FCAkarxLs!635DcVcDaS">
+                                                                      <value name="VALUE2">
+                                                                        <shadow type="materialList" id="IptCQ2{wlAMo;t:V#Gr=">
+                                                                          <field name="FIELDNAME">Pepper_Lid_Material</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                      <value name="VALUE1">
+                                                                        <shadow type="objectList" id="Lg9b$7sgoI;(bc.A#VN=">
+                                                                          <field name="FIELDNAME">Pepper_Bottle_Lid</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                      <next>
+                                                                        <block type="assignMaterial" id="Y~P7q;0fijxkBW(D,wS7">
+                                                                          <value name="VALUE2">
+                                                                            <shadow type="materialList" id=";wsLZ:Ppe78Ws03cZU-Y">
+                                                                              <field name="FIELDNAME">Fanta_Lid_Material</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                          <value name="VALUE1">
+                                                                            <shadow type="objectList" id="VIOHwd5^`dyqcUg}1-99">
+                                                                              <field name="FIELDNAME">Fanta_Bottle_Lid</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                        </block>
+                                                                      </next>
+                                                                    </block>
+                                                                  </next>
+                                                                </block>
+                                                              </next>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="r-iBRL@p#AOB)))8fG0)" x="-630" y="430">
+      <field name="NAME">UpdateDisplay</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="variables_set" id="%,S^X#p}6.Hplu7*;{kc">
+          <field name="VAR" id="zx8LeWj{BFvL`lUPi2V.">wireframe</field>
+          <value name="VALUE">
+            <block type="logic_boolean" id="+GpGswds)%EQZJ+:^$i_">
+              <field name="BOOL">FALSE</field>
+            </block>
+          </value>
+          <next>
+            <block type="procedures_callnoreturn" id="zn1:n5OV#q8ZiL=p|i;q">
+              <mutation name="ResetMaterials"/>
+              <next>
+                <block type="procedures_callnoreturn" id="ang/:k;5cg@)cEchA+mp">
+                  <mutation name="UpdateBottles"/>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1542" viewport-y="29" viewport-w="364" viewport-h="211.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
